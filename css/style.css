@@ -697,6 +697,7 @@ footer input[type="submit"]:hover {
         background-color: #ffffff;
         transition: 0.3s ease;
         width: 100%;
+        border-radius: 30px;
     }
 
     .menu li:hover::after {
