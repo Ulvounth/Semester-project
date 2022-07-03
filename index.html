@@ -4,39 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Come join us at the Community Science Museum where we’re committed to making science accessible to all.">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/0ea37d4b08.js" crossorigin="anonymous"></script>
-    <title>Community Science Museum</title>
+    <title>CSM | Home</title>
 </head>
 <body>
-    <header class="banner">
-            <div class="navbar">
-             <a href="index.html" class="logo"><img src="images/icon-1719742999.svg" alt="#"></a>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="visit.html">VISIT US</a></li>
-                    <li><a href="explore.html">EXPLORE</a></li>
-             </ul>
-         </div>
-         <section class="p-menu1">
-            <nav id="navbar" class="navigation" role="navigation">
-              <input id="toggle1" type="checkbox" />
-              <label class="hamburger1" for="toggle1">
-                <div class="top"></div>
-                <div class="meat"></div>
-                <div class="bottom"></div>
-              </label>
-            
-              <nav class="menu1">
-                <a class="link1" href="index.html">Home</a>
-                <a class="link1" href="contact.html">Contact us</a>
-                <a class="link1" href="visit.html">Visit us</a>
-                <a class="link1" href="explore.html">Explore</a>
-              </nav>
-          </nav>
-          </section>
-    </header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="logo">
+            <h2>Community Science Museum</h2>
+        </a>
+        <ul class="nav-links">
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+             <div class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="visit.html">VISIT US</a></li>
+                <li><a href="explore.html">EXPLORE</a></li>
+            </div>
+        </ul>
+    </nav>
     <main>
         <section class="main_section">
             <div class="main_content">
@@ -47,38 +36,41 @@
         <section class="second_section">
             <div class="second_content">
                 <h2>Exhibition Spaces</h2>
-                <a href="exhibition_spaces.html"><img src="images/mammoth-1257288_1920.jpg" alt=""></a>
+                <a href="exhibition_spaces.html"><img src="images/mammoth.jpg" alt="mammoth"></a>
             </div>
             <div class="second_content">
-                <h2>Special Events and Exhibitions</h2>
-                <a href="special_events.html"><img src="images/billetto-editorial-334686.jpg" alt=""></a>
+                <h2>Special Events</h2>
+                <a href="special_events.html"><img src="images/special-events.jpg" alt="guy painting while using VR-glasses"></a>
             </div>
             <div class="second_content">
                 <h2>Get Involved</h2>
-                <a href="get_involved.html"><img src="images/billetto-editorial-334686.jpg" alt=""></a>
+                <a href="get_involved.html"><img src="images/get-involved.jpg" alt="library"></a>
             </div>
         </section>
     </main>
     <footer>
         <div class="row">
             <div class="col-1">
-                <img src="images/icon-1719742999.svg" class="footer_logo" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ducimus unde veniam eum, saepe cumque nesciunt excepturi molestias.</p>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.svg" alt="logo">
+                    <h2>Community Science Museum</h2>
+                </a>
+                <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
             </div>
             <div class="col-2">
                 <h3>Address</h3>
                 <p>Sunndalsvegen 20</p>
                 <p>6600 Sunndalsøra</p>
                 <p>Norway</p>
-                <p class="email-id">Ulvund_a@hotmail.com</p>
+                <p class="email-id">csm@gmail.com</p>
                 <h4>+47 - 01234567</h4>
             </div>
             <div class="col-2">
                 <h3>Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="visit.html">Visit us</a></li>
                     <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="visit.html">Visit us</a></li>
                     <li><a href="explore.html">Explore</a></li>
                 </ul>
             </div>
@@ -87,16 +79,19 @@
                 <form>
                     <i class="fa-solid fa-envelope"></i>
                     <input type="email" placeholder="Enter your email" required>
-                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    <input type="submit" value="Send">
                 </form>
                 <div class="social-icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>
+        <a class="to-top" href="#">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+            <p>Back to top</p>
+        </a>
     </footer>
-</body>
-</html>
+    </body>
+    </html>
