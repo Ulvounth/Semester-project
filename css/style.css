@@ -16,7 +16,7 @@ h1 {
 
 p {
     font-size: 1.2em;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,6 @@ input[type=checkbox] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#dac9a6;
 }
 
 .logo {
@@ -103,7 +102,7 @@ header {
     color: #fff;
 }
 
-.headings {
+.headings-shadow {
     background: linear-gradient( to bottom, rgba(0,0,0,0) 45%, rgba(0, 0, 0, 1) );
     width: 100%;
     height: 600px;
@@ -111,7 +110,7 @@ header {
     align-items: flex-end;
 }
 
-.heading-content {
+.header-content {
     margin: auto;
     text-align: center;
     margin-bottom: 35px;
@@ -135,11 +134,12 @@ header {
 }
 
 .main_content h1 {
-    max-width: 70%;
+    max-width: 75%;
     padding-bottom: 30px;
 }
 
-.main_content a {
+.main_content a,
+.section-2_content a {
     color: #fbfcfd;
     padding: 10px 25px;
     background: transparent;
@@ -149,35 +149,46 @@ header {
     cursor: pointer;
 }
 
-.main_content a:hover {
+.main_content a:hover,
+.section-2_content a:hover {
     background-color: #fff;
     color: black;
     font-weight: 700;
 }
 
-.second_section {
-    display: flex;
-    width: 90%;
-    padding: 50px 0;
-    margin: auto;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
+.section-exhibition,
+.section-special_events,
+.section-get_involved {
+    position: relative;
+    color: #fff;
+    max-width: 1400px;
+    margin: 25px auto;
 }
 
-.second_section > * {
-    flex: 1;
+.section-exhibition {
+    background: url(../images/mammoth.jpg)center, no-repeat;
+    background-size: cover;
 }
 
-.second_content img {
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 50%;
+.section-special_events {
+    background: url(../images/special-events.jpg)center, no-repeat;
+    background-size: cover;
 }
 
-.second_content h2 {
-    border: 1px solid #fff;
-    padding: 20px;
+.section-get_involved {
+    background: url(../images/get-involved.jpg)center, no-repeat;
+    background-size: cover;
+}
+
+.section-2_content {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+}
+
+.section-2_content h2 {
+    font-size: 3rem;
+    padding-bottom: 30px;
 }
 
 /* Footer */ 
@@ -335,7 +346,7 @@ footer input[type="submit"]:hover {
     background-size: cover;
 }
 
-.explore h2 {
+.explore h3 {
     background-color: #a3b1d985;
     padding: 15px;
     margin-bottom: 15px;
@@ -351,14 +362,15 @@ footer input[type="submit"]:hover {
     justify-content: center;
     padding: 30px 0;
 }
-.explore-container h2 {
+.explore-container h3 {
     padding-bottom: 15px;
     font-size: 25px;
 }
 .explore-box img {
     width: 100%;
-    height: 350px;
+    height: 35%;
     max-width: 500px;
+    border-radius: 50%;
 }
 .explore-box p {
     padding: 15px 0;
@@ -382,6 +394,7 @@ footer input[type="submit"]:hover {
     gap: 30px;
     padding: 60px 0;
     text-align: center;
+    justify-content: center;
 }
 
 .involved-section h2 {
@@ -398,7 +411,6 @@ footer input[type="submit"]:hover {
     width: 100%;
     height: 45%;
     max-width: 500px;
-    border-radius: 50%;
 }
 
 /* Contact us */
@@ -483,6 +495,7 @@ footer input[type="submit"]:hover {
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
+    color: #666;
 }
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
@@ -695,7 +708,6 @@ footer input[type="submit"]:hover {
         background-color: #ffffff;
         transition: 0.3s ease;
         width: 100%;
-        border-radius: 30px;
     }
 
     .menu li:hover::after {
@@ -724,7 +736,7 @@ footer input[type="submit"]:hover {
     }
 
     .main_content h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     .second_section {
