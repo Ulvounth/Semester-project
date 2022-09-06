@@ -42,6 +42,10 @@ input[type=checkbox] {
 }
 
 /* Navbar */ 
+.active {
+    text-decoration: 2px underline;
+}
+
 .navbar {
     margin: auto;
     padding: 15px 0;
