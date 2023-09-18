@@ -23,5 +23,5 @@ https://shiny-crisp-dfc85a.netlify.app/
 
 ## Contact
 
-[My LinkedIn page](www.linkedin.com/Andreasulvund)
+www.linkedin.com/Andreasulvund
 
