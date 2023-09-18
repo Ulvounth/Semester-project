@@ -26,5 +26,5 @@ This was my semester project in which we were tasked with creating a website for
 
 ## Contact
 
-[My Linkedin](https://www.linkedin.com/in/andreas-ulvund-98066376/)
+<img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg"title="HTML5" alt="HTML" width="40" height="40"/>&nbsp; [My Linkedin](https://www.linkedin.com/in/andreas-ulvund-98066376/)
 
