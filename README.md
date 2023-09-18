@@ -12,11 +12,11 @@ This was my semester project in which we were tasked with creating a website for
 
 ## Built With
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/xd/xd-line.svg" title="XD" alt="XD" width="40" height="40"/>&nbsp; - Adobe XD 
+<img src="https://github.com/devicons/devicon/blob/master/icons/xd/xd-line.svg" title="XD" alt="XD" width="40" height="40"/>&nbsp;  Adobe XD 
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/> - HTML5
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>  HTML5
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/> - CSS
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>  CSS
 
 
 ## Link to the page
