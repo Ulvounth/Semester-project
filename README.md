@@ -1,5 +1,5 @@
-# Semester-project
-Community Science center
+<h1>Community Science Museum</h1>
+<p>Semester-project @ Noroff School of technology and digital media</p>
 
 ![2023-09-18](https://github.com/Ulvounth/Semester-project/assets/98667510/f53eb2b4-c0d8-48af-844c-cc98d34ffa0e)
 
