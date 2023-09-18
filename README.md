@@ -19,7 +19,7 @@ This was my semester project in which we were tasked with creating a website for
 
 ## Link to the page
 
-https://shiny-crisp-dfc85a.netlify.app/
+[Community Science center](https://shiny-crisp-dfc85a.netlify.app/)
 
 
 ## Contact
