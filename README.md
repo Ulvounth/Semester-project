@@ -14,7 +14,7 @@ This was my semester project in which we were tasked with creating a website for
 
 - Adobe XD
 - HTML5
-- CSS
+- CSS <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>
 
 
 ## Link to the page
