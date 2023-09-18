@@ -14,7 +14,8 @@ This was my semester project in which we were tasked with creating a website for
 
 - Adobe XD
 - HTML5
-- CSS ![download](https://github.com/Ulvounth/Semester-project/assets/98667510/b0896687-84a5-4d6e-84d0-dd40261994de)
+CSS
+![download](https://github.com/Ulvounth/Semester-project/assets/98667510/b0896687-84a5-4d6e-84d0-dd40261994de)
 
 
 
